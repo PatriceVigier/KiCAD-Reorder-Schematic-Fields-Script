@@ -1,4 +1,4 @@
-# 🧭 KiCad – Reorder Schematic Fields (single file **or** whole folder)
+# 🧭 KiCad 9 – Reorder Schematic Fields (single file **or** whole folder)
 
 Reorders multi-line `(property "Name" "Value" …)` blocks inside `(symbol …)` blocks in KiCad `.kicad_sch` files.
 Use it to standardize field display order (e.g., `MPN, LCSC, MANUFACTURER, Datasheet, Note`) across **one file** or **all schematics in a folder (recursively)**.
