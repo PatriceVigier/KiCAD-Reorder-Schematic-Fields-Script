@@ -11,11 +11,8 @@
   # --order "MPN,LCSC,MANUFACTURER,Datasheet,Note" `
   # --unlisted after
 
-# Si un seul fichier à modifier
+# If only one file to modify
 # python3 D:\KiCAD\Scripts\reorder_symbol_fields_schematics.py "C:\Projets\MonProjet\schema1.kicad_sch" --order "MPN,LCSC"
-
-#!/usr/bin/env python3
-# Reorder multi-line (property "...") blocks inside (symbol ...) blocks of KiCad .kicad_sch files.
 
 #!/usr/bin/env python3
 import argparse, re
