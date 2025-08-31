@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Author: Patrice Vigier (MIT License)
 # Reorder KiCad 6/7/8/9 schematic symbol properties across .kicad_sch files
 # by line-level manipulation of `(property "Name" "Value" ...)` within `(symbol ...)` blocks.
 
@@ -14,7 +15,7 @@
 # If only one file to modify
 # python3 D:\KiCAD\Scripts\reorder_symbol_fields_schematics.py "C:\Projets\MonProjet\schema1.kicad_sch" --order "MPN,LCSC"
 
-#!/usr/bin/env python3
+
 import argparse, re
 from pathlib import Path
 
